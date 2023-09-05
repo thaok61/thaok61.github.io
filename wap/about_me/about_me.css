@@ -1,0 +1,31 @@
+body {
+    background-color: blanchedalmond;
+    font-family: Arial, serif;
+}
+
+h1 {
+    color: brown;
+}
+
+h2 {
+    color: chocolate;
+}
+
+hr {
+    color: crimson;
+    border-color: crimson;
+    background-color: crimson;
+}
+
+section {
+    flex: 1;
+    padding: 20px;
+}
+
+.sectionLayout {
+    display: flex;
+}
+
+b {
+    color: indianred;
+}
