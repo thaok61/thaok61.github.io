@@ -11,6 +11,10 @@ h2 {
     color: chocolate;
 }
 
+h3 {
+    color: chocolate;
+}
+
 hr {
     color: crimson;
     border-color: crimson;
@@ -34,6 +38,7 @@ p.dropCap:first-letter {
     float: left;
     font-size: 45px;
     line-height: 1;
+    color: chocolate;
     font-weight: bold;
     margin-right: 9px;
 }
