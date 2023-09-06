@@ -1,0 +1,106 @@
+.serv ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    border: 1px solid crimson;
+    align-items: center;
+    justify-content: center;
+}
+
+.serv ul li {
+    list-style: none;
+    flex: 0 0 33.333333%;
+}
+
+h3 {
+    color: crimson;
+    text-align: center;
+}
+
+h4 {
+    color: crimson;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+#logout-btn-layout {
+    text-align: right;
+}
+
+.btn {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.logout-btn {
+    background-color: white;
+    color: crimson;
+}
+
+.logout-btn:hover {
+    background-color: crimson;
+    color: white;
+}
+
+.place-btn {
+    background-color: white;
+    color: crimson;
+    border: 1px solid crimson;
+}
+
+.place-btn:hover {
+    background-color: crimson;
+    color: white;
+}
+
+.place-btn-layout {
+    text-align: right;
+    margin-top: 10px;
+    margin-right: 100px;
+}
+
+span {cursor:pointer; }
+.number{
+    margin:4px;
+}
+.minus, .plus{
+    width:20px;
+    height:20px;
+    background:#f2f2f2;
+    border-radius:4px;
+
+    border:1px solid #ddd;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+input {
+    width: 80px;
+    text-align: center;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    display: inline-block;
+    vertical-align: middle;
+}
