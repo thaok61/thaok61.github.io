@@ -1,0 +1,70 @@
+.bodyLayout {
+    border: 1px solid darkseagreen;
+}
+
+.nav {
+    margin-top: 0px;
+    background-color: darkseagreen;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.nav-text {
+    margin-bottom: 10px;
+    margin-top: auto;
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+}
+.form1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.form1 input {
+    width: unset;
+}
+.childForm {
+    width: 45%;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+input, textarea, select {
+    width: 50%;
+}
+
+.checkBox{
+    width: 50%;
+}
+.checkBox input {
+    width: unset;
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.form-button {
+    background-color: white;
+    color: darkgreen;
+    border: 1px solid darkgreen
+}
+
+.form-button:hover {
+    background-color: darkgreen;
+    color: white;
+}
